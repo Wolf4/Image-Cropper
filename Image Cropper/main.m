@@ -10,9 +10,11 @@
 
 #import "IRAppDelegate.h"
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([IRAppDelegate class]));
+        return UIApplicationMain(argc,
+                                 argv,
+                                 nil,
+                                 NSStringFromClass([IRAppDelegate class]));
     }
 }

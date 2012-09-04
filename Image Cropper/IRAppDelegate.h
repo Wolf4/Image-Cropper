@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class IRRootViewController;
 @interface IRAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@property(strong, nonatomic) UIWindow *window;
+@property(strong, nonatomic) IRRootViewController *viewController;
 @end
