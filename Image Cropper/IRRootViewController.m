@@ -78,7 +78,7 @@
 }
 
 - (void)fullScreenButtonPressed {
-  UIImage *image = [UIImage imageNamed:@"1.jpeg"];
+  UIImage *image = [UIImage imageNamed:@"7.jpeg"];
   IRImageViewController *irViewController = [[IRImageViewController alloc]
                                              initWithImage:image
                                              cropAreaSize:CGSizeMake(250, 250)];
@@ -88,7 +88,7 @@
 }
 
 - (void)pageSheetButtonPressed {
-  UIImage *image = [UIImage imageNamed:@"2.jpeg"];
+  UIImage *image = [UIImage imageNamed:@"5.jpeg"];
   IRImageViewController *irViewController = [[IRImageViewController alloc]
                                              initWithImage:image
                                              cropAreaSize:CGSizeMake(250, 250)];
@@ -98,7 +98,7 @@
 }
 
 - (void)formSheetButtonPressed {
-  UIImage *image = [UIImage imageNamed:@"3.jpeg"];
+  UIImage *image = [UIImage imageNamed:@"6.jpeg"];
   IRImageViewController *irViewController = [[IRImageViewController alloc]
                                              initWithImage:image
                                              cropAreaSize:CGSizeMake(250, 250)];
@@ -108,7 +108,7 @@
 }
 
 - (void)popoverButtonPressed:(UIButton *)sender {
-  UIImage *image = [UIImage imageNamed:@"4.jpeg"];
+  UIImage *image = [UIImage imageNamed:@"8.jpeg"];
   IRImageViewController *irViewController = [[IRImageViewController alloc]
                                              initWithImage:image
                                              cropAreaSize:CGSizeMake(250, 250)];

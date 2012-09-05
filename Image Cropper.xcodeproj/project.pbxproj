@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D86726815F7583D002AB589 /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D86726715F7583D002AB589 /* 5.jpeg */; };
+		0D86726A15F75A00002AB589 /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D86726915F75A00002AB589 /* 6.jpeg */; };
+		0D86726C15F76E4E002AB589 /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D86726B15F76E4E002AB589 /* 7.jpeg */; };
+		0D86727715F77973002AB589 /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0D86727615F77973002AB589 /* 8.jpeg */; };
 		0DFCAF9215F4F406007A7808 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFCAF9115F4F406007A7808 /* UIKit.framework */; };
 		0DFCAF9415F4F406007A7808 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFCAF9315F4F406007A7808 /* Foundation.framework */; };
 		0DFCAF9615F4F406007A7808 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFCAF9515F4F406007A7808 /* CoreGraphics.framework */; };
 		0DFCAF9C15F4F406007A7808 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DFCAF9A15F4F406007A7808 /* InfoPlist.strings */; };
 		0DFCAF9E15F4F406007A7808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAF9D15F4F406007A7808 /* main.m */; };
 		0DFCAFA215F4F406007A7808 /* IRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAFA115F4F406007A7808 /* IRAppDelegate.m */; };
-		0DFCAFB215F4F52E007A7808 /* IRImageCropperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAFAD15F4F52E007A7808 /* IRImageCropperView.m */; };
+		0DFCAFB215F4F52E007A7808 /* IRCropperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAFAD15F4F52E007A7808 /* IRCropperView.m */; };
 		0DFCAFB315F4F52E007A7808 /* IRImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAFAF15F4F52E007A7808 /* IRImageViewController.m */; };
 		0DFCAFB415F4F52E007A7808 /* IRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAFB115F4F52E007A7808 /* IRRootViewController.m */; };
-		0DFCAFC015F4F554007A7808 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0DFCAFBC15F4F554007A7808 /* 1.jpeg */; };
-		0DFCAFC115F4F554007A7808 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0DFCAFBD15F4F554007A7808 /* 2.jpeg */; };
-		0DFCAFC215F4F554007A7808 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0DFCAFBE15F4F554007A7808 /* 3.jpeg */; };
-		0DFCAFC315F4F554007A7808 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0DFCAFBF15F4F554007A7808 /* 4.jpeg */; };
 		0DFCAFC615F4F597007A7808 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFCAFC515F4F597007A7808 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D86726715F7583D002AB589 /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		0D86726915F75A00002AB589 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		0D86726B15F76E4E002AB589 /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		0D86727615F77973002AB589 /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
 		0DFCAF8D15F4F406007A7808 /* Image Cropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Cropper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFCAF9115F4F406007A7808 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0DFCAF9315F4F406007A7808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,16 +38,12 @@
 		0DFCAF9F15F4F406007A7808 /* Image Cropper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Image Cropper-Prefix.pch"; sourceTree = "<group>"; };
 		0DFCAFA015F4F406007A7808 /* IRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRAppDelegate.h; sourceTree = "<group>"; };
 		0DFCAFA115F4F406007A7808 /* IRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAppDelegate.m; sourceTree = "<group>"; };
-		0DFCAFAC15F4F52E007A7808 /* IRImageCropperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRImageCropperView.h; sourceTree = "<group>"; };
-		0DFCAFAD15F4F52E007A7808 /* IRImageCropperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRImageCropperView.m; sourceTree = "<group>"; };
+		0DFCAFAC15F4F52E007A7808 /* IRCropperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRCropperView.h; sourceTree = "<group>"; };
+		0DFCAFAD15F4F52E007A7808 /* IRCropperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRCropperView.m; sourceTree = "<group>"; };
 		0DFCAFAE15F4F52E007A7808 /* IRImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRImageViewController.h; sourceTree = "<group>"; };
 		0DFCAFAF15F4F52E007A7808 /* IRImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRImageViewController.m; sourceTree = "<group>"; };
 		0DFCAFB015F4F52E007A7808 /* IRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRRootViewController.h; sourceTree = "<group>"; };
 		0DFCAFB115F4F52E007A7808 /* IRRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRRootViewController.m; sourceTree = "<group>"; };
-		0DFCAFBC15F4F554007A7808 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
-		0DFCAFBD15F4F554007A7808 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
-		0DFCAFBE15F4F554007A7808 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
-		0DFCAFBF15F4F554007A7808 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
 		0DFCAFC515F4F597007A7808 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -99,8 +99,8 @@
 				0DFCAFB115F4F52E007A7808 /* IRRootViewController.m */,
 				0DFCAFAE15F4F52E007A7808 /* IRImageViewController.h */,
 				0DFCAFAF15F4F52E007A7808 /* IRImageViewController.m */,
-				0DFCAFAC15F4F52E007A7808 /* IRImageCropperView.h */,
-				0DFCAFAD15F4F52E007A7808 /* IRImageCropperView.m */,
+				0DFCAFAC15F4F52E007A7808 /* IRCropperView.h */,
+				0DFCAFAD15F4F52E007A7808 /* IRCropperView.m */,
 				0DFCAF9815F4F406007A7808 /* Supporting Files */,
 			);
 			path = "Image Cropper";
@@ -121,10 +121,10 @@
 		0DFCAFB515F4F534007A7808 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0DFCAFBC15F4F554007A7808 /* 1.jpeg */,
-				0DFCAFBD15F4F554007A7808 /* 2.jpeg */,
-				0DFCAFBE15F4F554007A7808 /* 3.jpeg */,
-				0DFCAFBF15F4F554007A7808 /* 4.jpeg */,
+				0D86726715F7583D002AB589 /* 5.jpeg */,
+				0D86726915F75A00002AB589 /* 6.jpeg */,
+				0D86726B15F76E4E002AB589 /* 7.jpeg */,
+				0D86727615F77973002AB589 /* 8.jpeg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 				0DFCAF8915F4F406007A7808 /* Sources */,
 				0DFCAF8A15F4F406007A7808 /* Frameworks */,
 				0DFCAF8B15F4F406007A7808 /* Resources */,
-				0DFCAFC415F4F573007A7808 /* ShellScript */,
+				0D86727915F779A2002AB589 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -183,17 +183,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DFCAF9C15F4F406007A7808 /* InfoPlist.strings in Resources */,
-				0DFCAFC015F4F554007A7808 /* 1.jpeg in Resources */,
-				0DFCAFC115F4F554007A7808 /* 2.jpeg in Resources */,
-				0DFCAFC215F4F554007A7808 /* 3.jpeg in Resources */,
-				0DFCAFC315F4F554007A7808 /* 4.jpeg in Resources */,
+				0D86726815F7583D002AB589 /* 5.jpeg in Resources */,
+				0D86726A15F75A00002AB589 /* 6.jpeg in Resources */,
+				0D86726C15F76E4E002AB589 /* 7.jpeg in Resources */,
+				0D86727715F77973002AB589 /* 8.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DFCAFC415F4F573007A7808 /* ShellScript */ = {
+		0D86727915F779A2002AB589 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,7 +204,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "epmlint -a\nexit 0";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -215,7 +215,7 @@
 			files = (
 				0DFCAF9E15F4F406007A7808 /* main.m in Sources */,
 				0DFCAFA215F4F406007A7808 /* IRAppDelegate.m in Sources */,
-				0DFCAFB215F4F52E007A7808 /* IRImageCropperView.m in Sources */,
+				0DFCAFB215F4F52E007A7808 /* IRCropperView.m in Sources */,
 				0DFCAFB315F4F52E007A7808 /* IRImageViewController.m in Sources */,
 				0DFCAFB415F4F52E007A7808 /* IRRootViewController.m in Sources */,
 			);
@@ -325,6 +325,7 @@
 				0DFCAFA715F4F406007A7808 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
