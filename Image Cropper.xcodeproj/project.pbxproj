@@ -287,6 +287,10 @@
 		0DFCAFA615F4F406007A7808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Image Cropper/Image Cropper-Prefix.pch";
 				INFOPLIST_FILE = "Image Cropper/Image Cropper-Info.plist";
@@ -298,6 +302,10 @@
 		0DFCAFA715F4F406007A7808 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Image Cropper/Image Cropper-Prefix.pch";
 				INFOPLIST_FILE = "Image Cropper/Image Cropper-Info.plist";
