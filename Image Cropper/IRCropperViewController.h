@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-@class IRCropperView;
-@interface IRImageViewController : UIViewController
+@class IRCroppingView;
+@interface IRCropperViewController : UIViewController
 @property(nonatomic, retain) UIImageView *imageView;
-@property(nonatomic, retain) IRCropperView *cropperView;
+@property(nonatomic, retain) IRCroppingView *cropperView;
 - (id)initWithImage:(UIImage *)image cropAreaSize:(CGSize)size;
 - (UIImage *)cropImage;
 - (void)setCropAreaSize:(CGSize)size;

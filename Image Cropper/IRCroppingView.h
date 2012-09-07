@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IRCropperView : UIView
+@interface IRCroppingView : UIView
 @property(nonatomic, assign) CGSize cropAreaSize;
 - (CGRect)croppingWindowRect;
 - (id)initWithFrame:(CGRect)frame cropAreaSize:(CGSize)cropAreaSize;

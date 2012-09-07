@@ -7,7 +7,7 @@
 //
 
 #import "IRRootViewController.h"
-#import "IRImageViewController.h"
+#import "IRCropperViewController.h"
 
 @interface IRRootViewController ()
 
@@ -79,7 +79,7 @@
 
 - (void)fullScreenButtonPressed {
   UIImage *image = [UIImage imageNamed:@"7.jpeg"];
-  IRImageViewController *irViewController = [[IRImageViewController alloc]
+  IRCropperViewController *irViewController = [[IRCropperViewController alloc]
                                              initWithImage:image
                                              cropAreaSize:CGSizeMake(250, 250)];
   irViewController.modalPresentationStyle = UIModalPresentationFullScreen;
@@ -89,7 +89,7 @@
 
 - (void)pageSheetButtonPressed {
   UIImage *image = [UIImage imageNamed:@"5.jpeg"];
-  IRImageViewController *irViewController = [[IRImageViewController alloc]
+  IRCropperViewController *irViewController = [[IRCropperViewController alloc]
                                              initWithImage:image
                                              cropAreaSize:CGSizeMake(250, 250)];
   irViewController.modalPresentationStyle = UIModalPresentationPageSheet;
@@ -99,7 +99,7 @@
 
 - (void)formSheetButtonPressed {
   UIImage *image = [UIImage imageNamed:@"6.jpeg"];
-  IRImageViewController *irViewController = [[IRImageViewController alloc]
+  IRCropperViewController *irViewController = [[IRCropperViewController alloc]
                                              initWithImage:image
                                              cropAreaSize:CGSizeMake(250, 250)];
   irViewController.modalPresentationStyle = UIModalPresentationFormSheet;
@@ -109,7 +109,7 @@
 
 - (void)popoverButtonPressed:(UIButton *)sender {
   UIImage *image = [UIImage imageNamed:@"8.jpeg"];
-  IRImageViewController *irViewController = [[IRImageViewController alloc]
+  IRCropperViewController *irViewController = [[IRCropperViewController alloc]
                                              initWithImage:image
                                              cropAreaSize:CGSizeMake(250, 250)];
   UIPopoverController *popoverController =

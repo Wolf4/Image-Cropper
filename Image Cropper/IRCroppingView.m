@@ -6,11 +6,11 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "IRCropperView.h"
+#import "IRCroppingView.h"
 #import <QuartzCore/QuartzCore.h>
 
 
-@implementation IRCropperView
+@implementation IRCroppingView
 @synthesize cropAreaSize = cropAreaSize_;
 
 - (id)initWithFrame:(CGRect)frame cropAreaSize:(CGSize)cropAreaSize {

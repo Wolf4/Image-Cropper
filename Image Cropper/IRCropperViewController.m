@@ -6,15 +6,15 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "IRImageViewController.h"
+#import "IRCropperViewController.h"
 #import <QuartzCore/QuartzCore.h>
-#import "IRCropperView.h"
+#import "IRCroppingView.h"
 
-@interface IRImageViewController ()
+@interface IRCropperViewController ()
 @end
 
 
-@implementation IRImageViewController
+@implementation IRCropperViewController
 @synthesize imageView = imageView_;
 @synthesize cropperView = cropperView_;
 
@@ -27,7 +27,7 @@
     // Custom initialization
     imageView_ = [[UIImageView alloc] initWithFrame:CGRectZero];
     imageView_.image = image;
-    cropperView_ = [[IRCropperView alloc]
+    cropperView_ = [[IRCroppingView alloc]
                          initWithFrame:CGRectZero
                          cropAreaSize:size];
   }
@@ -35,10 +35,18 @@
 }
 
 - (void)loadView {
+//  UIView *view = [[UIView alloc] initWithFrame:CGRectZero];
+//  view.backgroundColor = [UIColor blackColor];
+//  self.view = view;
+//  [view release];
   UIView *view = [[UIView alloc] initWithFrame:CGRectZero];
   view.backgroundColor = [UIColor blackColor];
   self.view = view;
   [view release];
+}
+
+- (void)configureCropperView {
+  
 }
 
 - (void)viewDidLoad {
@@ -55,12 +63,14 @@
                                      UIViewAutoresizingFlexibleBottomMargin |
                                      UIViewAutoresizingFlexibleLeftMargin |
                                      UIViewAutoresizingFlexibleRightMargin);
+  
   self.imageView.frame = [self imageRectForImageView:self.imageView];
+  self.imageView.contentMode = UIViewContentModeScaleToFill;
   [self.view addSubview:self.imageView];
   self.cropperView.backgroundColor = [UIColor clearColor];
   self.cropperView.contentMode = UIViewContentModeRedraw;
   self.cropperView.autoresizingMask = (UIViewAutoresizingFlexibleHeight |
-                           UIViewAutoresizingFlexibleWidth);
+                                       UIViewAutoresizingFlexibleWidth);
   self.cropperView.frame = self.view.bounds;
   UIButton *cropButton = [UIButton buttonWithType:UIButtonTypeCustom];
   [cropButton addTarget:self

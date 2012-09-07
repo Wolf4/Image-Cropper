@@ -17,8 +17,8 @@
 		0DFCAF9C15F4F406007A7808 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DFCAF9A15F4F406007A7808 /* InfoPlist.strings */; };
 		0DFCAF9E15F4F406007A7808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAF9D15F4F406007A7808 /* main.m */; };
 		0DFCAFA215F4F406007A7808 /* IRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAFA115F4F406007A7808 /* IRAppDelegate.m */; };
-		0DFCAFB215F4F52E007A7808 /* IRCropperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAFAD15F4F52E007A7808 /* IRCropperView.m */; };
-		0DFCAFB315F4F52E007A7808 /* IRImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAFAF15F4F52E007A7808 /* IRImageViewController.m */; };
+		0DFCAFB215F4F52E007A7808 /* IRCroppingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAFAD15F4F52E007A7808 /* IRCroppingView.m */; };
+		0DFCAFB315F4F52E007A7808 /* IRCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAFAF15F4F52E007A7808 /* IRCropperViewController.m */; };
 		0DFCAFB415F4F52E007A7808 /* IRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCAFB115F4F52E007A7808 /* IRRootViewController.m */; };
 		0DFCAFC615F4F597007A7808 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFCAFC515F4F597007A7808 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
@@ -38,10 +38,10 @@
 		0DFCAF9F15F4F406007A7808 /* Image Cropper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Image Cropper-Prefix.pch"; sourceTree = "<group>"; };
 		0DFCAFA015F4F406007A7808 /* IRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRAppDelegate.h; sourceTree = "<group>"; };
 		0DFCAFA115F4F406007A7808 /* IRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAppDelegate.m; sourceTree = "<group>"; };
-		0DFCAFAC15F4F52E007A7808 /* IRCropperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRCropperView.h; sourceTree = "<group>"; };
-		0DFCAFAD15F4F52E007A7808 /* IRCropperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRCropperView.m; sourceTree = "<group>"; };
-		0DFCAFAE15F4F52E007A7808 /* IRImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRImageViewController.h; sourceTree = "<group>"; };
-		0DFCAFAF15F4F52E007A7808 /* IRImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRImageViewController.m; sourceTree = "<group>"; };
+		0DFCAFAC15F4F52E007A7808 /* IRCroppingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRCroppingView.h; sourceTree = "<group>"; };
+		0DFCAFAD15F4F52E007A7808 /* IRCroppingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRCroppingView.m; sourceTree = "<group>"; };
+		0DFCAFAE15F4F52E007A7808 /* IRCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRCropperViewController.h; sourceTree = "<group>"; };
+		0DFCAFAF15F4F52E007A7808 /* IRCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRCropperViewController.m; sourceTree = "<group>"; };
 		0DFCAFB015F4F52E007A7808 /* IRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRRootViewController.h; sourceTree = "<group>"; };
 		0DFCAFB115F4F52E007A7808 /* IRRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRRootViewController.m; sourceTree = "<group>"; };
 		0DFCAFC515F4F597007A7808 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -97,10 +97,10 @@
 				0DFCAFA115F4F406007A7808 /* IRAppDelegate.m */,
 				0DFCAFB015F4F52E007A7808 /* IRRootViewController.h */,
 				0DFCAFB115F4F52E007A7808 /* IRRootViewController.m */,
-				0DFCAFAE15F4F52E007A7808 /* IRImageViewController.h */,
-				0DFCAFAF15F4F52E007A7808 /* IRImageViewController.m */,
-				0DFCAFAC15F4F52E007A7808 /* IRCropperView.h */,
-				0DFCAFAD15F4F52E007A7808 /* IRCropperView.m */,
+				0DFCAFAE15F4F52E007A7808 /* IRCropperViewController.h */,
+				0DFCAFAF15F4F52E007A7808 /* IRCropperViewController.m */,
+				0DFCAFAC15F4F52E007A7808 /* IRCroppingView.h */,
+				0DFCAFAD15F4F52E007A7808 /* IRCroppingView.m */,
 				0DFCAF9815F4F406007A7808 /* Supporting Files */,
 			);
 			path = "Image Cropper";
@@ -204,7 +204,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "epmlint -a\nexit 0";
+			shellScript = "";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -215,8 +215,8 @@
 			files = (
 				0DFCAF9E15F4F406007A7808 /* main.m in Sources */,
 				0DFCAFA215F4F406007A7808 /* IRAppDelegate.m in Sources */,
-				0DFCAFB215F4F52E007A7808 /* IRCropperView.m in Sources */,
-				0DFCAFB315F4F52E007A7808 /* IRImageViewController.m in Sources */,
+				0DFCAFB215F4F52E007A7808 /* IRCroppingView.m in Sources */,
+				0DFCAFB315F4F52E007A7808 /* IRCropperViewController.m in Sources */,
 				0DFCAFB415F4F52E007A7808 /* IRRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
